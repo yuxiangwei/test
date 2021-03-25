@@ -77,8 +77,9 @@
 
 ### 七、dev（分支）合并到 main（主干）
 
-> 运行：git checkout main   先切换到主干来
+> 运行：git checkout -b main  先切换到主干来
 
 > 运行：git merge dev    运行要合并的分支
 
-> 运行：git push -u origin main  推到远程仓库  
+> 运行：git push -f|-u origin main  推到远程仓库  -f强制推不管远程仓有没有数据 -u设为默认推送命令 后面只要运行： git push 
+
